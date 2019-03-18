@@ -6,8 +6,8 @@
 using namespace std;
 
 
-void MergeSort(int A[],int p,int q);
-void Merge(int A[], int p, int q, int m);
+void MergeSort(int A[],int p,int r);
+void Merge(int A[], int p, int q, int r);
 
 
 int main(){
