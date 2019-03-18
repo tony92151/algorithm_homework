@@ -48,10 +48,7 @@ int main(){
         //store new array in optput.txt
         cout<<"store new array in optput.txt\n";
         count = 0;
-        while (count < leagth && output << array[count]){
-            output << " ";
-            count++;
-        }
+        while (count < leagth && output << array[count]<<" ") count++;
         cout<<"Done\n";
 
 
