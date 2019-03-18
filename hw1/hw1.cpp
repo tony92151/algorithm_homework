@@ -1,4 +1,17 @@
 
+/**
+ *  Name : hw1
+ *
+ *  Author : Tony Guo
+ *  
+ *  Country : Taiwan
+ *
+ *  Date : 18 Mar, 2019 
+ * 
+ *  github : https://github.com/tony92151/algorithm_homework
+ */
+
+
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
