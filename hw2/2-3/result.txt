@@ -1,0 +1,2 @@
+QUICKSORT use : 1.107e+06 nanosecond
+InsertionSort use : 5.9305e+07 nanosecond

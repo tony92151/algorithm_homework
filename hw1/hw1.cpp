@@ -32,7 +32,7 @@ int main(){
     int array;
 
     if (input.is_open()){
-        bool first = true;
+        //bool first = true;
 
         //read first line to get length
         input >> leagth;
@@ -61,10 +61,9 @@ int main(){
         //store new array in optput.txt
         cout<<"store new array in optput.txt\n";
         count = 0;
-        while (count < leagth && output << array[count]<<" ") count++;
+        output <<  leagth <<"\n";
+        while (count < leagth && output << array[count]<<"\n") count++;
         cout<<"Done\n";
-
-
     }
 
 }
