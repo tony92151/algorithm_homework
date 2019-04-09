@@ -9,3 +9,8 @@
 > cd ~/algorithm_homework/hw1
 
 > g++ hw1.cpp && ./a.out
+
+
+# 壓縮
+
+> tar cvf FileName.tar hw1
