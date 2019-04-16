@@ -11,6 +11,8 @@
  *  github : https://github.com/tony92151/algorithm_homework
  */
 
+// reference https://gist.github.com/harish-r
+
 
 #include <stdio.h>
 #include <iostream>
@@ -141,28 +143,26 @@ public:
 
 
 int main(){
+    srand(5);
 
-    ifstream input( "input.txt" );
-    ofstream output( "output.txt" );
-   
-    int length;
-    int array;
+    BST t;
 
-    if (input.is_open()){
-
-        //read first line to get length
-        input >> length;
-        cout<<"Length:" << length <<"\n";
-
-        //define array length
-        int *array = new int [length];
-
-        //read each number in array
-        int count = 0;
-        while (count < length && input >> array[count]) count++;
-
-        
+    for(int i = 0; i < 20; i++){
+       t.insert(i);
     }
+    cout << "Init BTS : \n";
+    t.display();
+
+
+    cout << "\n";
+    cout << "Remove 10 from BTS : \n";
+    t.remove(10);
+    t.display();
+
+    cout << "\n";
+    cout << "Add 50 in BTS : \n";
+    t.insert(50);
+    t.display();
 
 }
 
